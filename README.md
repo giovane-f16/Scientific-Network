@@ -1,2 +1,3 @@
 # ScientificNetwork
-## Site da plataforma.
+
+Site de demonstração do nosso projeto de rede científica.
