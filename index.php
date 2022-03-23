@@ -26,13 +26,12 @@
             <div id=meio-titulo>
                 <h1 id="titulo">Bem-Vindo a sua comunidade científica!</h1>
                 <p id=subtitulo>Complete com suas informações:</p>
-                
             </div>
         <fieldset id="campo-email" class="group">
             <div class="campo">
                 <label for="email"><strong>Email:</strong></label>
                 <input type="email" name="email" id="email" required placeholder="Ex.: giovane@hotmail.com">
-            </div> <br>
+            </div> 
             <div class="campo">
                 <label for="senha"><strong>Senha:</strong></label>
                 <input type="password" name="senha" id="senha" required placeholder="**********">
@@ -41,7 +40,7 @@
             <ul type="none"><li><a href="forget">Esqueceu a sua senha?</a></li></ul>
             <button type="submit" class="btn">Log In</button>
         </form>
-            <button type="submit" class="btn2">Cadastrar</button>
+        <button type="submit" class="btn2">Cadastrar</button>
         <img src="/wordpress/wp-content/themes/scientific/logo_sem_fundo2_aumentada.png" alt="Logo Ciência">
     </div>
 
@@ -71,16 +70,16 @@
     
     <div class="valores">
         <nav><h3>Valores</h3></nav>
-        <section id="valores"><p>
+        <section id="valores">
             <div class="texto">
-            •	Inovar na proposta;<br>
-            •	Revolucionar na ação;<br>
-            •	Surpreender a cada contato;<br>
-            •	Entregar sempre o melhor;<br>
-            •	Ser honesto, profissional e responsável;<br>
-            •	Crescer e aprender todos os dias;<br>
-            •	Viver e trabalhar com alegria;<br>
-            •	Respirar tecnologia 24 horas.<br></p>
+                Inovar na proposta
+                Revolucionar na ação
+                Surpreender a cada contato
+                Entregar sempre o melhor
+                Ser honesto, profissional e responsável
+                Crescer e aprender todos os dias
+                Viver e trabalhar com alegria
+                Respirar tecnologia 24 horas
             </div>
         </section>
     </div>
