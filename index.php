@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="textura.css">
-    <link rel="shortcut icon" type="imagem.png" href="logo_sem_fundo2-removebg-preview.png">
+    <link rel="stylesheet" type="text/css" href="/wordpress/wp-content/themes/scientific/style.css">
+    <link rel="shortcut icon" type="imagem.png" href="/wordpress/wp-content/themes/scientific/logo_sem_fundo2-removebg-preview.png">
     <title>Scientific Network</title>
 </head>
 <body>
@@ -45,7 +45,7 @@
             <button type="submit" class="btn">Log In</button>
         </form>
             <button type="submit" class="btn2">Cadastrar</button>
-        <img src="logo_sem_fundo2_aumentada.png" alt="Logo Ciência">
+        <img src="/wordpress/wp-content/themes/scientific/logo_sem_fundo2_aumentada.png" alt="Logo Ciência">
     </div>
 
     <div class="projeto">
