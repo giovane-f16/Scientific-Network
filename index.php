@@ -9,10 +9,10 @@
     <title>Scientific Network</title>
 </head>
 <body>
-    <div id="caixa-titulo"><div></div><h1>Scientific<br>NetWork</h1></div>
-    <br>
-    <header>
-    <nav class="menu">
+    <div id="caixa-titulo">
+        <h1>Scientific NetWork</h1>
+    </div>
+    <div class="menu">
         <ul>
             <li> <a href="#projeto"> Projeto Integrador </a> </li>
             <li> <a href="#missao"> Missão </a> </li>
@@ -20,10 +20,7 @@
             <li> <a href="#valores"> Valores </a> </li>
             <li> <a href="#quem"> Quem somos? </a> </li>
         </ul>
-    </nav>
-    </header>
-    <br>
-
+    </div>
     <div class="meio">
         <form>
             <div id=meio-titulo>
