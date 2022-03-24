@@ -1,21 +1,12 @@
 body {
     font-family: sans-serif;
     background-color: rgb(0, 0, 0);
-    margin:0;
-    width: 100%;
 }
-
 #caixa-titulo {
     text-align: center; 
     border-radius: 50px;
     color: cornsilk;
 }
-
-header{
-    width: 100%;
-    text-align:center;
-  }
-
 .menu ul {
     margin-left: 25%;
     margin-right: 25%; 
@@ -23,9 +14,7 @@ header{
     box-shadow: 0 0 1em 1em rgb(0 0 0 / 10%);
     background-color: rgb(119, 250, 255);
     padding: 0px 20px;
-    display: inline-flex;
 }
-
 .menu ul li {
     display: flex; 
 }
@@ -149,18 +138,6 @@ img{
     right:30%;
     }
 }
-@media only screen and (min-width: 1230px) and (max-width: 2560px){
-    img{
-    position: absolute;
-    top: 40%;
-    right:30%;
-
-    }
-    .meio{
-        display:block;
-    }
-} 
-
 .projeto {
     text-align: center;
     margin: 1em;
@@ -220,3 +197,14 @@ img{
     border-radius: 5px;
     background-color:  rgb(119, 250, 255);
 }
+@media only screen and (min-width: 1230px) and (max-width: 2560px){
+    img{
+    position: absolute;
+    top: 40%;
+    right:30%;
+
+    }
+    .meio{
+        display:block;
+    }
+} 
