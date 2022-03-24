@@ -30,25 +30,12 @@ body {
 .menu ul li a:hover{
     color: #ffffff;
 }
-
 .meio {
     background-color:  rgb(119, 250, 255);
 }
-.meio #titulo {
+.meio #tituloCadastro {
     color: black;
-}
-
-#campo-email{
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: left;  
-}
-fieldset {
-    border: none;
-}
-input{
-    border-radius: 5px;
+    text-align: center;
 }
 .campo label{
     margin-bottom: 0.3em;
@@ -146,10 +133,7 @@ input{
     text-align: center;
     background-color:  rgb(119, 250, 255);
 }
-.texto{
-    margin-left: 35%;
-    text-align: left;
-}
+
 .quem {
     text-align: center;
     margin: 1em;
