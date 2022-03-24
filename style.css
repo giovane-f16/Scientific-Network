@@ -36,6 +36,9 @@ body {
     border-radius: 5px;
     background-color:  rgb(119, 250, 255);
 }
+.meio #titulo {
+    color: black;
+}
 #meio-titulo{
     display: flex;
     flex-direction: column;

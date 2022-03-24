@@ -23,11 +23,9 @@
     </div>
 
     <div class="meio">
-        <form>
-            <div id=meio-titulo>
-                <h1 id="titulo">Bem-Vindo a sua comunidade científica!</h1>
-                <p id=subtitulo>Complete com suas informações:</p>
-            </div>
+            <h1 id="titulo">Bem-Vindo a sua comunidade científica!</h1>
+            <!-- p id=subtitulo>Complete com suas informações:</p -->
+    <form>      
         <fieldset id="campo-email" class="group">
             <div class="campo">
                 <label for="email"><strong>Email:</strong></label>
@@ -40,7 +38,7 @@
         </fieldset>
             <ul type="none"><li><a href="forget">Esqueceu a sua senha?</a></li></ul>
             <button type="submit" class="btn">Log In</button>
-        </form>
+    </form>
         <button type="submit" class="btn2">Cadastrar</button>
         <!-- img src="/wordpress/wp-content/themes/scientific/logo_sem_fundo2_aumentada.png" alt="Logo Ciência" -->
     </div>
