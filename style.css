@@ -4,16 +4,10 @@ body {
 }
 #caixa-titulo {
     text-align: center; 
-    border-radius: 50px;
     color: cornsilk;
 }
 .menu ul {
-    margin-left: 25%;
-    margin-right: 25%; 
-    border-radius: 5px;
-    box-shadow: 0 0 1em 1em rgb(0 0 0 / 10%);
     background-color: rgb(119, 250, 255);
-    padding: 0px 20px;
 }
 .menu ul li {
     display: flex; 
