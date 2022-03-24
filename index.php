@@ -9,7 +9,7 @@
     <title>Scientific Network</title>
 </head>
 <body>
-    <div id="caixa-titulo">
+    <div id="titulo">
         <h1>Scientific NetWork</h1>
     </div>
     <div class="menu">
