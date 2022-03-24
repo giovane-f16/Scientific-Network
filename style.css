@@ -18,18 +18,15 @@ body {
 .menu ul li {
     display: flex; 
 }
-
 .menu ul li a {
     padding: 20px;
     display: flex;
     color: black;
     text-decoration: none;
 }
-
 .menu ul li a:hover{
     color: #ffffff;
 }
-
 .meio {
     text-align: left;
     margin-left: 25%;
@@ -39,61 +36,49 @@ body {
     background-color:  rgb(119, 250, 255);
     display: inline-block;
 }
-
 #meio-titulo{
     display: flex;
     flex-direction: column;
     align-items: left;
 }
-
 #campo-email{
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: left;  
 }
-
 fieldset {
     border: none;
 }
-
 input{
     border-radius: 5px;
 }
-
 .campo label{
     margin-bottom: 0.3em;
     color: black;
     display: block;
 }
-
-
 .campo input[type="email"] {
     padding: 0.8em;
     border: 1px solid #59429d;
     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
 }
-
 .campo input[type="password"] {
     padding: 0.8em;
     border: 1px solid #59429d;
     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
 }
-
 .meio ul li {
     display: inline;
 }
-
 .meio ul li a {
     display: inline-block;
     color: black;
     text-decoration: none;
 }
-
 .meio ul li a:hover{
     color: #dbfeff;
 }
-
 .btn{
     border: none;
     background: #f8f8f8;
@@ -106,13 +91,11 @@ input{
     margin-top: 1%;
     margin-bottom: 5%;
 }
-
 .btn:hover{
     background-color:  #000000;
     color: #fff;
     cursor: pointer;
 }
-
 .btn2{
     cursor: pointer;
     width: 50%;
@@ -126,17 +109,9 @@ input{
     font-size: 1.1rem;
     transition: all .3s ease-in-out;
 }
-
 .btn2:hover{
     background: #ffffff;
     color: #000000;
-}
-@media only screen and (max-width: 1230px){
-img{
-    position: absolute;
-    top: 40%;
-    right:30%;
-    }
 }
 .projeto {
     text-align: center;
@@ -147,7 +122,6 @@ img{
     border-radius: 5px;
     background-color:  rgb(119, 250, 255);
 }
-
 .missao {
     text-align: center;
     margin: 1em;
@@ -157,7 +131,6 @@ img{
     border-radius: 5px;
     background-color:  rgb(119, 250, 255);
 }
-
 .visao {
     text-align: center;
     margin: 1em;
@@ -167,7 +140,6 @@ img{
     border-radius: 5px;
     background-color:  rgb(119, 250, 255);
 }
-
 .valores {
     text-align: center;
     margin: 1em;
@@ -177,7 +149,6 @@ img{
     border-radius: 5px;
     background-color:  rgb(119, 250, 255);
 }
-
 .valores nav{
     text-align: center;
     background-color:  rgb(119, 250, 255);
@@ -197,12 +168,12 @@ img{
     border-radius: 5px;
     background-color:  rgb(119, 250, 255);
 }
-@media only screen and (min-width: 1230px) and (max-width: 2560px){
-    img{
-    position: absolute;
-    top: 40%;
-    right:30%;
 
+@media only screen and (max-width: 1170px){
+    img{
+        position: absolute;
+        top: 40%;
+        right:30%;
     }
     .meio{
         display:block;
