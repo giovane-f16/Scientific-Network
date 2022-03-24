@@ -56,7 +56,7 @@ input{
 .campo label{
     margin-bottom: 0.3em;
     color: black;
-    display: block;
+    /*display: block;*/
 }
 .campo input[type="email"] {
     padding: 0.8em;
@@ -153,12 +153,10 @@ input{
     text-align: center;
     background-color:  rgb(119, 250, 255);
 }
-
 .texto{
     margin-left: 35%;
     text-align: left;
 }
-
 .quem {
     text-align: center;
     margin: 1em;

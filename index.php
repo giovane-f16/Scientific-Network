@@ -21,6 +21,7 @@
             <li> <a href="#quem"> Quem somos? </a> </li>
         </ul>
     </div>
+
     <div class="meio">
         <form>
             <div id=meio-titulo>
@@ -41,10 +42,10 @@
             <button type="submit" class="btn">Log In</button>
         </form>
         <button type="submit" class="btn2">Cadastrar</button>
-        <img src="/wordpress/wp-content/themes/scientific/logo_sem_fundo2_aumentada.png" alt="Logo Ciência">
+        <!-- img src="/wordpress/wp-content/themes/scientific/logo_sem_fundo2_aumentada.png" alt="Logo Ciência" -->
     </div>
 
-    <div class="projeto">
+    <!-- div class="projeto" -->
         <section id="projeto"><h2>Projeto Integrador</h2>
             <p>Este projeto tem como objetivo primário a criação de uma plataforma rede social na qual cientistas 
             de todo o mundo sejam capazes de compartilhar informações uns com os outros, dessa forma aumentando a taxa de
@@ -52,23 +53,23 @@
         </section>
     </div>
 
-    <div class="missao">
+    <!-- div class="missao" -->
         <section id="missao"><h3>Missão</h3>
             <p>Por meio de um trabalho desenvolvido com ética, comprometimento e eficiência, temos a missão de 
             transformar a realidade de empresas, negócios e pessoas, aumentando os seus resultados no universo web e mobile de 
             maneira contínua.</p>
         </section>
-    </div> 
+    <!-- /div --> 
 
-    <div class="visao">
+    <!-- div class="visao" -->
         <section id="visao"><h3>Visão</h3>
             <p>Ser uma empresa de desenvolvimento de aplicativos excelente em inovação e criatividade que é parceira 
             dos nossos clientes, promove grandes resultados e segue seus valores para consolidar-se no mercado como referência no 
             desenvolvimento de aplicativos e em serviços e soluções web e mobile.</p>
         </section>
-    </div> 
+    <!-- /div --> 
     
-    <div class="valores">
+    <!-- div class="valores" -->
         <nav><h3>Valores</h3></nav>
         <section id="valores">
             <div class="texto">
@@ -82,16 +83,16 @@
                 Respirar tecnologia 24 horas
             </div>
         </section>
-    </div>
+    <!-- /div -->
     
-    <div class="quem">
+    <!-- div class="quem" -->
         <h3>Quem somos?</h3>
         <section id="quem">Somos uma empresa de desenvolvimento de aplicativos para quem 
             gosta de inovar, superar expectativas e sair da caixa. Sonhamos alto e junto com 
             o nosso time alcançamos excelentes resultados, contribuindo para o sucesso de 
             empresas, negócios e pessoas. 
         </section>
-    </div>
+    <!-- /div -->
     <script type="text/javascript" src="scripts.js"></script>
 </body>
 </html>
