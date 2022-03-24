@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(238, 102, 102);
 }
 #caixa-titulo {
     text-align: center; 
@@ -10,21 +10,17 @@ body {
     background-color: rgb(119, 250, 255);
 }
 .menu ul li a {
-    padding: 20px;
     color: black;
     text-decoration: none;
 }
 .menu ul li a:hover{
     color: #ffffff;
 }
+
 .meio {
     text-align: left;
-    margin-left: 25%;
-    margin-right: 25%; 
-    padding:25px 35px 25px 25px;
     border-radius: 5px;
     background-color:  rgb(119, 250, 255);
-    display: inline-block;
 }
 #meio-titulo{
     display: flex;
@@ -76,10 +72,6 @@ input{
     border-radius: 5px;
     font-size: 17px;
     font-weight: 650;
-    padding: 10px;
-    margin-left: 3%;
-    margin-top: 1%;
-    margin-bottom: 5%;
 }
 .btn:hover{
     background-color:  #000000;
@@ -156,7 +148,7 @@ input{
     border-radius: 5px;
     background-color:  rgb(119, 250, 255);
 }
-
+/*
 @media only screen and (max-width: 1170px){
     img{
         position: absolute;
@@ -167,3 +159,4 @@ input{
         display:block;
     }
 } 
+*/
