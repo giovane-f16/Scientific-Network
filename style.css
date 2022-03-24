@@ -6,8 +6,18 @@ body {
     text-align: center; 
     color: cornsilk;
 }
+.menu {
+    margin: 10px
+}
 .menu ul {
     background-color: rgb(119, 250, 255);
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.menu ul li {
+    list-style-type: none;
 }
 .menu ul li a {
     color: black;
