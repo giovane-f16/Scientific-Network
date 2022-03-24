@@ -9,12 +9,8 @@ body {
 .menu ul {
     background-color: rgb(119, 250, 255);
 }
-.menu ul li {
-    display: flex; 
-}
 .menu ul li a {
     padding: 20px;
-    display: flex;
     color: black;
     text-decoration: none;
 }
