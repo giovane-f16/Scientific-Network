@@ -48,24 +48,47 @@ body {
 .meio form fieldset #email{
     padding: 10px;
     margin: 5px;
-    border: 2px solid black;
-    border-radius: 4px;
+    border: none;
 }.meio form fieldset #email:focus{
-    border: 3px solid rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
     background-color: rgb(190, 190, 190);
 }
 
 .meio form fieldset #senha{
     padding: 10px;
     margin: 5px;
-    border: 2px;
-    border: 2px solid black;
-    border-radius: 4px;
+    border: none;
 }
 .meio form fieldset #senha:focus{
-    border: 3px solid rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
     background-color: rgb(190, 190, 190);
 }
+
+.meio form fieldset #botaoLogin{
+    text-decoration: none;
+    margin: 5px;
+    border: none;
+    font-size: 16px;
+    padding: 10px 4px;
+}
+.meio form fieldset #botaoLogin:hover{
+    background-color: rgb(110, 110, 248);
+}
+.meio form fieldset a{
+    text-decoration: none;
+    color: black;
+}
+.meio form fieldset #botaoCadastrar{
+    text-decoration: none;
+    margin: 5px;
+    border: none;
+    font-size: 16px;
+    padding: 10px 4px;
+}
+.meio form fieldset #botaoCadastrar:hover{
+    background-color: rgb(110, 110, 248);
+}
+
 /*
 .campo label{
     margin-bottom: 0.3em;
