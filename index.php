@@ -23,8 +23,8 @@
     </div>
 
     <div class="meio">
-            <h1 id="tituloCadastro">Bem-Vindo a sua comunidade científica!</h1>
-            <h3>Complete com as suas informações </h3>
+            <h1>Bem-vindo a sua comunidade científica!</h1>
+            <h3>Complete com as suas informações: </h3>
         <form>      
             <fieldset id="login">
                 <label for="email"><strong>Email:</strong></label>
@@ -73,7 +73,7 @@
                     <li>Respirar tecnologia 24 horas</li>
                 </ul>
         </section>
-
+        
         <section id="quem"><h3>Quem somos?</h3>
             Somos uma empresa de desenvolvimento de aplicativos para quem 
             gosta de inovar, superar expectativas e sair da caixa. Sonhamos alto e junto com 
