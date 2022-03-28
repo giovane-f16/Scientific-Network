@@ -29,17 +29,15 @@
             <fieldset id="login">
                 <label for="email"><strong>Email:</strong></label>
                 <input type="email" name="email" id="email" required placeholder="Ex.: giovane@hotmail.com">
-                
                 <label for="senha"><strong>Senha:</strong></label>
                 <input type="password" name="senha" id="senha" required placeholder="**********">
-                
-                <button type="submit" id="botaoLogin">Log In</button>
-
-                <a href="#">Esqueceu a sua senha?</a>
-                <button type="submit" id="botaoCadastrar">Cadastrar</button>
+                <div>
+                    <button type="submit" id="botaoLogin">Log In</button>
+                    <button type="submit" id="botaoCadastrar">Cadastrar</button>
+                </div>
             </fieldset>
+            <a href="#">Esqueceu a sua senha?</a>
         </form>
-        <!-- img src="/wordpress/wp-content/themes/scientific/logo_sem_fundo2_aumentada.png" alt="Logo Ciência" -->
     </div>
 
     <div class="inferior">
