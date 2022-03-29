@@ -40,10 +40,11 @@ body {
 }
 .meio h3 {
     margin: 10px;
+    padding-left: 10%;
 }
 .meio form{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .meio form fieldset{
     display: flex;
@@ -89,13 +90,18 @@ body {
 .meio form #botaoCadastrar:hover{
     background-color: rgb(110, 110, 248);
 }
-.meio form a{
+.meio form fieldset a{
     text-decoration: none;
     color: black;
     margin: 10px;
 }
-.meio form a:hover{
+.meio form fieldset a:hover{
     color: rgb(0, 0, 182);
+}
+.botoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .inferior {
     margin: 10px;

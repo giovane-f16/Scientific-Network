@@ -34,10 +34,9 @@
                 <input type="password" name="senha" id="senha" required placeholder="**********">
                 <a href="#">Esqueceu a sua senha?</a>
             </fieldset>
-            <div>
+            <div class="botoes">
                 <button type="submit" id="botaoLogin">Log In</button>
                 <button type="submit" id="botaoCadastrar">Cadastrar</button>
-                
             </div>
         </form>
     </div>
