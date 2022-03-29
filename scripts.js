@@ -9,14 +9,15 @@ function scrollToIdOnClick(event) {
     const to = getScrollTopByHref(event.target) - 80;
     scrollToPosition(to);
 }
-function scrollToPosition(to) {
-        window.scroll({
-        top: to,
-        behavior: "smooth",
-           });
-}
-function getScrollTopByHref(element) {
-const id = element.getAttribute('href');
-return document.querySelector(id).offsetTop;
 
+function scrollToPosition(to) {
+    window.scroll({
+    top: to,
+    behavior: "smooth",
+    });
+}
+
+function getScrollTopByHref(element) {
+    const id = element.getAttribute('href');
+return document.querySelector(id).offsetTop;
 }

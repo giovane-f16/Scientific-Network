@@ -18,19 +18,16 @@
             <li> <a href="#quem"> Quem somos? </a> </li>
         </ul>
     </div>
-
     <div id="titulo">
         <h1>Scientific NetWork</h1>
     </div>
-
     <div class="meio">
-            <h2>Bem-vindo a sua comunidade científica!</h2>
-            
+        <h2>Bem-vindo a sua comunidade científica!</h2>    
         <form>      
             <fieldset id="login">
                 <strong>Complete com as suas informações:</strong>
                 <label for="email"><strong>Email:</strong></label>
-                <input type="email" name="email" id="email" required placeholder="Ex.: giovane@hotmail.com">
+                <input type="email" name="email" id="email" required placeholder="Ex: usuario@email.com">
                 <label for="senha"><strong>Senha:</strong></label>
                 <input type="password" name="senha" id="senha" required placeholder="**********">
                 <a href="#">Esqueceu a sua senha?</a>
