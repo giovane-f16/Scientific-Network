@@ -41,6 +41,10 @@ body {
 .meio h3 {
     margin: 10px;
 }
+.meio form{
+    display: flex;
+    justify-content: space-around;
+}
 .meio form fieldset{
     display: flex;
     flex-direction: column;
@@ -65,24 +69,24 @@ body {
     background-color: rgb(190, 190, 190);
 }
 
-.meio form fieldset #botaoLogin{
+.meio form #botaoLogin{
     text-decoration: none;
     margin: 5px;
     border: none;
     font-size: 16px;
     padding: 10px 4px;
 }
-.meio form fieldset #botaoLogin:hover{
+.meio form #botaoLogin:hover{
     background-color: rgb(110, 110, 248);
 }
-.meio form fieldset #botaoCadastrar{
+.meio form #botaoCadastrar{
     text-decoration: none;
     margin: 5px;
     border: none;
     font-size: 16px;
     padding: 10px 4px;
 }
-.meio form fieldset #botaoCadastrar:hover{
+.meio form #botaoCadastrar:hover{
     background-color: rgb(110, 110, 248);
 }
 .meio form a{

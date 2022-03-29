@@ -32,12 +32,13 @@
                 <input type="email" name="email" id="email" required placeholder="Ex.: giovane@hotmail.com">
                 <label for="senha"><strong>Senha:</strong></label>
                 <input type="password" name="senha" id="senha" required placeholder="**********">
-                <div>
-                    <button type="submit" id="botaoLogin">Log In</button>
-                    <button type="submit" id="botaoCadastrar">Cadastrar</button>
-                </div>
+                <a href="#">Esqueceu a sua senha?</a>
             </fieldset>
-            <a href="#">Esqueceu a sua senha?</a>
+            <div>
+                <button type="submit" id="botaoLogin">Log In</button>
+                <button type="submit" id="botaoCadastrar">Cadastrar</button>
+                
+            </div>
         </form>
     </div>
 
