@@ -46,7 +46,7 @@
         <section id="projeto"><h2>Projeto Integrador</h2>
             <p>Este projeto tem como objetivo primário a criação de uma plataforma rede social na qual cientistas 
             de todo o mundo sejam capazes de compartilhar informações uns com os outros, dessa forma aumentando a taxa de
-            desenvolvimento científico de todo o mundo</p>
+            desenvolvimento científico de todo o planeta</p>
         </section>
 
         <section id="missao"><h3>Missão</h3>

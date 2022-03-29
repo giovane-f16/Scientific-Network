@@ -3,7 +3,6 @@ body {
     background-color: rgb(223, 250, 255);
     margin: 0px
 }
-
 .menu {
     margin: 0px;
     background-color: rgb(36, 134, 138);
@@ -50,6 +49,9 @@ body {
     display: flex;
     flex-direction: column;
     border: 0px;
+}
+.meio form fieldset label{
+    margin-top: 10px;
 }
 .meio form fieldset #email{
     padding: 10px;
