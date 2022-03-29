@@ -22,9 +22,9 @@
     <div id="titulo">
         <h1>Scientific NetWork</h1>
     </div>
-    
+
     <div class="meio">
-            <h1>Bem-vindo a sua comunidade científica!</h1>
+            <h2>Bem-vindo a sua comunidade científica!</h2>
             <h3>Complete com as suas informações: </h3>
         <form>      
             <fieldset id="login">

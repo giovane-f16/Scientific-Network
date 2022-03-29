@@ -6,7 +6,7 @@ body {
 
 .menu {
     margin: 0px;
-    background-color: rgb(119, 250, 255);
+    background-color: rgb(36, 134, 138);
 }
 .menu ul {
     padding: 5px 0px;
@@ -20,23 +20,23 @@ body {
     list-style-type: none;
 }
 .menu ul li a {
-    color: black;
+    color: #ffffff;
     text-decoration: none;
     font-size: 20px;
 }
 .menu ul li a:hover{
-    color: #ffffff;
+    color: black;
 }
 #titulo {
     text-align: center; 
     color: rgb(12, 12, 12);
 }
 .meio {
-    background-color:  rgb(119, 250, 255);
+    background-color: rgb(106 201 205);
+    padding-bottom: 5px;
 }
-.meio h1 {
+.meio h2 {
     text-align: center;
-    margin: 0px;
 }
 .meio h3 {
     margin: 10px;
@@ -92,4 +92,7 @@ body {
 }
 .meio form a:hover{
     color: rgb(0, 0, 182);
+}
+.inferior {
+    margin: 10px;
 }
