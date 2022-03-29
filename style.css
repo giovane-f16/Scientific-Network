@@ -1,3 +1,9 @@
+/*
+Theme Name: Scientific
+Author: Giovane Ferreira
+Description: Rede social para ciêntistas
+Version: 1.0.0
+*/
 body {
     font-family: sans-serif;
     background-color: rgb(223, 250, 255);
@@ -29,6 +35,10 @@ body {
 #titulo {
     text-align: center; 
     color: rgb(12, 12, 12);
+}
+.cadastro form fieldset input{
+    display: flex;
+    flex-direction: column;
 }
 .meio {
     background-color: rgb(106 201 205);

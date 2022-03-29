@@ -23,7 +23,7 @@
     </div>
     <div class="meio">
         <h2>Bem-vindo a sua comunidade científica!</h2>    
-        <form>      
+        <form><!--action="caminho" para onde os dados serão enviados -->      
             <fieldset id="login">
                 <strong>Complete com as suas informações:</strong>
                 <label for="email"><strong>Email:</strong></label>
@@ -38,7 +38,19 @@
             </div>
         </form>
     </div>
-
+    <div class="cadastro">
+        <form>
+            <fieldset>
+                <legend>Informações</legend>
+                <label for="nome">Nome Completo: </label>
+                <input type="text" id="nome">
+                <label for="emailCadastro">E-mail: </label>
+                <input type="email" id="emailCadastro">
+                <label for="senhaCadastro">Cadastre uma senha: </label>
+                <input type="password" id="senhaCadastro">
+            </fieldset>
+        </form>
+    </div>
     <div class="inferior">
         <section id="projeto"><h2>Projeto Integrador</h2>
             <p>Este projeto tem como objetivo primário a criação de uma plataforma rede social na qual cientistas 
@@ -77,6 +89,7 @@
             o nosso time alcançamos excelentes resultados, contribuindo para o sucesso de 
             empresas, negócios e pessoas. 
         </section>
+        <?php //dadosSelect() ?>
     </div>
     <script type="text/javascript" src="scripts.js"></script>
 </body>
