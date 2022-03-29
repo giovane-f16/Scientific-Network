@@ -48,6 +48,7 @@
                 <input type="email" id="emailCadastro">
                 <label for="senhaCadastro">Cadastre uma senha: </label>
                 <input type="password" id="senhaCadastro">
+                <input type="submit" value="Enviar">
             </fieldset>
         </form>
     </div>
