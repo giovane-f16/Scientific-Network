@@ -9,9 +9,6 @@
     <title>Scientific Network</title>
 </head>
 <body>
-    <div id="titulo">
-        <h1>Scientific NetWork</h1>
-    </div>
     <div class="menu">
         <ul>
             <li> <a href="#projeto"> Projeto Integrador </a> </li>
@@ -22,6 +19,10 @@
         </ul>
     </div>
 
+    <div id="titulo">
+        <h1>Scientific NetWork</h1>
+    </div>
+    
     <div class="meio">
             <h1>Bem-vindo a sua comunidade científica!</h1>
             <h3>Complete com as suas informações: </h3>
