@@ -15,21 +15,21 @@ if(!empty($_POST['botaoDadosCadastrados'])){
         $data = date('Y-m-d H:m:s');
         //Inserindo dados no DB
         $wpdb->insert('wp_users', array(
-            'user_nicename' => $nome,
-            'user_login' => $emailCadastro,
+            'user_login' => $nome,
             'user_pass' => $hash,
-            'display_user' => $nome,
+            'user_nicename' => $nome,
             'user_email' => $emailCadastro,
             'user_url' => '',
             'user_registered' => $data,
             'user_activation_key' => '',
-            'user_status' => '0'
+            'user_status' => '0',
+            'display_user' => $nome
         ));
 
         // Quando inserimos usuários na tabela wp_users, precisa inserir alguns dados na tabela wp_usermeta
         $ultimoid = $wpdb->insert_id;
         $inserido = $wpdb->insert('wp_usermeta', array(
-            'meta_id' => NULL,
+            'umeta_id' => NULL,
             'user_id' => $ultimoid,
             'meta_key' => 'wp_capabilities',
             'meta_value' => 'a:1:{s:13:"administrator";s:1:"1";}' // permissões do user
