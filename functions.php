@@ -4,7 +4,16 @@ if(!empty($_POST['botaoDadosCadastrados'])){
     // Verificando campos não preenchidos
     if (!empty($_POST['nome']) AND !empty($_POST['emailCadastro']) AND 
     !empty($_POST['senhaCadastro'])){
-        var_dump($_POST);
+        // Atribuindo a variáveis os dados recebidos
+        $nome = sanitize_text_field($_POST['nome']);
+        $emailCadastro = sanitize_text_field($_POST['emailCadastro']);
+        $senhaCadastro = sanitize_email($_POST['senhaCadastro']);
+
+        // Criptografando senha
+        $hash = md5($senhaCadastro);
+
+        //Inserindo dados no DB
+        global $wpdb;
     } else{
         echo "Todos os campos devem ser preenchidos";
     }
