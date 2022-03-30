@@ -1,5 +1,14 @@
 <?php 
-
+// Verificando quando clicar no botão
+if(!empty($_POST['botaoDadosCadastrados'])){
+    // Verificando campos não preenchidos
+    if (!empty($_POST['nome']) AND !empty($_POST['emailCadastro']) AND 
+    !empty($_POST['senhaCadastro'])){
+        var_dump($_POST);
+    } else{
+        echo "Todos os campos devem ser preenchidos";
+    }
+}
 // Função de select
 function dadosSelect(){
     echo "<pre>";
@@ -16,6 +25,5 @@ function dadosSelect(){
     }
     return $valor;
 }
-
 
 ?>

@@ -39,6 +39,7 @@ body {
 .cadastro form fieldset input{
     display: flex;
     flex-direction: column;
+    margin: 5px;
 }
 .meio {
     background-color: rgb(106 201 205);

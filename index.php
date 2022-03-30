@@ -39,18 +39,19 @@
         </form>
     </div>
     <div class="cadastro">
-        <form>
+        <form method="post">
             <fieldset>
                 <legend>Informações</legend>
                 <label for="nome">Nome Completo: </label>
-                <input type="text" id="nome">
+                <input type="text" name="nome">
                 <label for="emailCadastro">E-mail: </label>
-                <input type="email" id="emailCadastro">
+                <input type="email" name="emailCadastro">
                 <label for="senhaCadastro">Cadastre uma senha: </label>
-                <input type="password" id="senhaCadastro">
-                <input type="submit" value="Enviar">
+                <input type="password" name="senhaCadastro">
+                <input type="submit" value="Enviar" name="botaoDadosCadastrados">
             </fieldset>
         </form>
+            
     </div>
     <div class="inferior">
         <section id="projeto"><h2>Projeto Integrador</h2>
