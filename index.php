@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/wordpress/wp-content/themes/scientific/style.css">
-    <link rel="shortcut icon" type="imagem.png" href="/wordpress/wp-content/themes/scientific/logo_sem_fundo2-removebg-preview.png">
+    <!-- link rel="shortcut icon" type="imagem.png" href="/wordpress/wp-content/themes/scientific/logo_sem_fundo2-removebg-preview.png"-->
     <title>Scientific Network</title>
 </head>
 <body>
@@ -91,7 +91,7 @@
             o nosso time alcançamos excelentes resultados, contribuindo para o sucesso de 
             empresas, negócios e pessoas. 
         </section>
-        <?php //dadosSelect() ?>
+        <?php dadosSelect() ?>
     </div>
     <script type="text/javascript" src="scripts.js"></script>
 </body>

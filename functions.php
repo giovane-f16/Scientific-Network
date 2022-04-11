@@ -1,5 +1,6 @@
 <?php 
 global $wpdb;
+
 // Verificando quando clicar no botão
 if(!empty($_POST['botaoDadosCadastrados'])){
     // Verificando campos não preenchidos
@@ -14,7 +15,7 @@ if(!empty($_POST['botaoDadosCadastrados'])){
         // Pegando a data de criação dos dados
         $data = date('Y-m-d H:m:s');
         //Inserindo dados no DB
-        $wpdb->insert('wp_users', array(
+        $wpdb->insert($tabela_nome, array(
             'user_login' => $nome,
             'user_pass' => $hash,
             'user_nicename' => $nome,
@@ -50,13 +51,16 @@ function dadosSelect(){
     echo "<pre>";
     global $wpdb;  // variável global as conexões do DB, os dados e as classes
 
-    $resultado = $wpdb->get_results("SELECT * FROM wp_users ORDER BY ID ASC");
+    $resultado = $wpdb->get_results("SELECT * FROM $tabela_nome ORDER BY ID ASC");
 
     // loop para pegar cada valor inserido na tabela
     foreach($resultado as $valor){
             echo $valor->ID; // variável $valor recebendo valor da coluna
+            echo "<br>";
             echo $valor->user_login;
+            echo "<br>";
             echo $valor->user_email;
+            echo "<br>";
             echo date('d/m/Y H:m:s', strtotime($valor->user_registered));
     }
     return $valor;
