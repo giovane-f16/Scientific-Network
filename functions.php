@@ -6,6 +6,8 @@ if(!empty($_POST['botaoDadosCadastrados'])){
     // Verificando campos não preenchidos
     if (!empty($_POST['nome']) AND !empty($_POST['emailCadastro']) AND 
     !empty($_POST['senhaCadastro'])){
+        $tabela_nome = $wpdb->prefix.'users';
+        $tabela_nome1 = $wpdb->prefix.'usermeta';
         // Atribuindo a variáveis os dados recebidos
         $nome = sanitize_text_field($_POST['nome']);
         $emailCadastro = sanitize_text_field($_POST['emailCadastro']);
@@ -24,12 +26,12 @@ if(!empty($_POST['botaoDadosCadastrados'])){
             'user_registered' => $data,
             'user_activation_key' => '',
             'user_status' => '0',
-            'display_user' => $nome
+            'display_name' => $nome
         ));
 
         // Quando inserimos usuários na tabela wp_users, precisa inserir alguns dados na tabela wp_usermeta
         $ultimoid = $wpdb->insert_id;
-        $inserido = $wpdb->insert('wp_usermeta', array(
+        $inserido = $wpdb->insert($tabela_nome1, array(
             'umeta_id' => NULL,
             'user_id' => $ultimoid,
             'meta_key' => 'wp_capabilities',
@@ -50,7 +52,7 @@ if(!empty($_POST['botaoDadosCadastrados'])){
 function dadosSelect(){
     echo "<pre>";
     global $wpdb;  // variável global as conexões do DB, os dados e as classes
-
+    $tabela_nome = $wpdb->prefix.'users';
     $resultado = $wpdb->get_results("SELECT * FROM $tabela_nome ORDER BY ID ASC");
 
     // loop para pegar cada valor inserido na tabela
@@ -62,6 +64,7 @@ function dadosSelect(){
             echo $valor->user_email;
             echo "<br>";
             echo date('d/m/Y H:m:s', strtotime($valor->user_registered));
+            echo "<br><br>";
     }
     return $valor;
 }
