@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/wordpress/wp-content/themes/scientific/style.css">
     <!-- link rel="shortcut icon" type="imagem.png" href="/wordpress/wp-content/themes/scientific/logo_sem_fundo2-removebg-preview.png"-->
+    <meta http-equiv="cache-control" content="max-age=0">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    
     <title>Scientific Network</title>
 </head>
 <body>
@@ -51,7 +55,7 @@
                 <input type="submit" value="Enviar" name="botaoDadosCadastrados">
             </fieldset>
         </form>
-            
+        <?php dadosSelect() ?>
     </div>
     <div class="inferior">
         <section id="projeto"><h2>Projeto Integrador</h2>
@@ -91,7 +95,6 @@
             o nosso time alcançamos excelentes resultados, contribuindo para o sucesso de 
             empresas, negócios e pessoas. 
         </section>
-        <?php dadosSelect() ?>
     </div>
     <script type="text/javascript" src="scripts.js"></script>
 </body>
