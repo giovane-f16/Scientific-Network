@@ -47,12 +47,12 @@
             <fieldset>
                 <legend>Informações</legend>
                 <label for="nome">Nome Completo: </label>
-                <input type="text" name="nome">
+                <input type="text" name="nome" id="nome">
                 <label for="emailCadastro">E-mail: </label>
-                <input type="email" name="emailCadastro">
+                <input type="email" name="emailCadastro" id="emailCadastro">
                 <label for="senhaCadastro">Cadastre uma senha: </label>
-                <input type="password" name="senhaCadastro">
-                <input type="submit" value="Enviar" name="botaoDadosCadastrados">
+                <input type="password" name="senhaCadastro" id="senhaCadastro">
+                <input type="submit" value="Enviar" name="botaoDadosCadastrados" id="botaoDadosCadastrados">
             </fieldset>
         </form>
         <?php dadosSelect() ?>
@@ -96,7 +96,7 @@
             empresas, negócios e pessoas. 
         </section>
     </div>
-    <script type="text/javascript" src="scripts.js"></script>
+    <script src="/wordpress/wp-content/themes/scientific/scripts.js"></script>
 </body>
 </html>
 
