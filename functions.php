@@ -1,13 +1,14 @@
 <?php 
 global $wpdb;
 
+$tabela_nome = $wpdb->prefix.'users';
+$tabela_nome1 = $wpdb->prefix.'usermeta';
+
 // Verificando quando clicar no botão
 if(!empty($_POST['botaoDadosCadastrados'])){
     // Verificando campos não preenchidos
-    if (!empty($_POST['nome']) AND !empty($_POST['emailCadastro']) AND 
-    !empty($_POST['senhaCadastro'])){
-        $tabela_nome = $wpdb->prefix.'users';
-        $tabela_nome1 = $wpdb->prefix.'usermeta';
+    if (!empty($_POST['nome']) && !empty($_POST['emailCadastro']) && !empty($_POST['senhaCadastro']))
+    {
         // Atribuindo a variáveis os dados recebidos
         $nome = sanitize_text_field($_POST['nome']);
         $emailCadastro = sanitize_text_field($_POST['emailCadastro']);
@@ -67,6 +68,9 @@ function dadosSelect(){
             echo "<br><br>";
     }
     return $valor;
+}
+function excluir(){
+    echo 'teste';
 }
 
 ?>

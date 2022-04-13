@@ -1,7 +1,7 @@
 document.getElementById("botaoDadosCadastrados").addEventListener("click", function(){
-    /*alert("teste");
+    alert("clicou");
     getElementById("nome").value='';
     getElementById("emailCadastro").value='';
-    getElementById("senhaCadastro").value='';*/
-    location.reload();
+    getElementById("senhaCadastro").value='';
+    //location.reload();
 });
