@@ -27,7 +27,7 @@
     </div>
     <div class="meio">
         <h2>Bem-vindo a sua comunidade científica!</h2>    
-        <form><!--action="caminho" para onde os dados serão enviados -->      
+        <form>     
             <fieldset id="login">
                 <strong>Complete com as suas informações:</strong>
                 <label for="email"><strong>Email:</strong></label>
