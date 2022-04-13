@@ -5,3 +5,7 @@ document.getElementById("botaoDadosCadastrados").addEventListener("click", funct
     getElementById("senhaCadastro").value='';
     //location.reload();
 });
+
+document.getElementById("botaoCadastrar").addEventListener("click", function(){
+    alert("deu certo");
+})

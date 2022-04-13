@@ -36,11 +36,6 @@ body {
     text-align: center; 
     color: rgb(12, 12, 12);
 }
-.cadastro form fieldset input{
-    display: flex;
-    flex-direction: column;
-    margin: 5px;
-}
 .meio {
     background-color: rgb(106 201 205);
     padding-bottom: 5px;
@@ -115,6 +110,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+.cadastro form fieldset input{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
 }
 .inferior {
     margin: 10px;

@@ -55,7 +55,7 @@
                 <input type="submit" value="Enviar" name="botaoDadosCadastrados" id="botaoDadosCadastrados">
             </fieldset>
         </form>
-        <?php dadosSelect() ?>
+        <?php //dadosSelect() ?>
     </div>
     <div class="inferior">
         <section id="projeto"><h2>Projeto Integrador</h2>
