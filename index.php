@@ -27,10 +27,10 @@
     </div>
     <div class="meio">
         <h2>Bem-vindo a sua comunidade científica!</h2>
-        <h3>Complete com as suas informações:</h3>
-        <form>     
+        
+        <form> 
             <fieldset id="login">
-                
+                <h3>Complete com as suas informações:</h3>
                 <label for="email"><strong>Email:</strong></label>
                 <input type="email" name="email" id="email" required placeholder="Ex: usuario@email.com">
                 <label for="senha"><strong>Senha:</strong></label>
@@ -38,8 +38,11 @@
                 <button type="submit" id="botaoLogin">Log In</button>
                 <a href="#">Esqueceu a sua senha?</a>
             </fieldset>
+            <div>
+                <h3>Ainda não possui Login? Faça seu cadastro!</h3>
+                <button type="submit" id="botaoCadastrar">Cadastrar</button>
+            </div>
         </form>
-        <button type="submit" id="botaoCadastrar">Cadastrar</button>
     </div>
     <div class="cadastro">
         <form method="post">
