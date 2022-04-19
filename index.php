@@ -34,13 +34,11 @@
                 <input type="email" name="email" id="email" required placeholder="Ex: usuario@email.com">
                 <label for="senha"><strong>Senha:</strong></label>
                 <input type="password" name="senha" id="senha" required placeholder="**********">
+                <button type="submit" id="botaoLogin">Log In</button>
                 <a href="#">Esqueceu a sua senha?</a>
             </fieldset>
-            <div class="botoes">
-                <button type="submit" id="botaoLogin">Log In</button>
-                <button type="submit" id="botaoCadastrar">Cadastrar</button>
-            </div>
         </form>
+        <button type="submit" id="botaoCadastrar">Cadastrar</button>
     </div>
     <div class="cadastro">
         <form method="post">
