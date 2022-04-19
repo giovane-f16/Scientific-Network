@@ -39,7 +39,7 @@
                 <a href="#">Esqueceu a sua senha?</a>
             </fieldset>
             <div>
-                <h3>Ainda não possui Login? Faça seu cadastro!</h3>
+                <h3>Ainda não possui Login? Faça o seu cadastro!</h3>
                 <button type="submit" id="botaoCadastrar">Cadastrar</button>
             </div>
         </form>
