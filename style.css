@@ -40,12 +40,11 @@ body {
     background-color: rgba(106, 201, 205, 0.3) ;
     padding-bottom: 5px;
 }
-.meio h2 {
+.meio h2{
     text-align: center;
 }
 .meio h3 {
-    margin: 10px;
-    padding-left: 10%;
+    text-align: center;
 }
 .meio form{
     display: flex;
@@ -60,21 +59,21 @@ body {
     margin-top: 10px;
 }
 .meio form fieldset #email{
-    padding: 10px;
+    padding: 15px 75px 15px 75px;
     margin: 5px;
     border: none;
 }.meio form fieldset #email:focus{
-    border: 2px solid rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
     background-color: rgb(160, 182, 224);
 }
 
 .meio form fieldset #senha{
-    padding: 10px;
+    padding: 15px 75px 15px 75px;
     margin: 5px 5px 15px;
     border: none;
 }
 .meio form fieldset #senha:focus{
-    border: 2px solid rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
     background-color: rgb(160, 182, 224);
 }
 
@@ -82,7 +81,8 @@ body {
     text-decoration: none;
     margin: 5px;
     border: none;
-    font-size: 16px;
+    border-radius: 5px;
+    font-size: 18px;
     padding: 10px 4px;
     background-color: rgb(160, 182, 224);
 }

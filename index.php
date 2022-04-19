@@ -26,10 +26,11 @@
         <h1>Scientific NetWork</h1>
     </div>
     <div class="meio">
-        <h2>Bem-vindo a sua comunidade científica!</h2>    
+        <h2>Bem-vindo a sua comunidade científica!</h2>
+        <h3>Complete com as suas informações:</h3>
         <form>     
             <fieldset id="login">
-                <strong>Complete com as suas informações:</strong>
+                
                 <label for="email"><strong>Email:</strong></label>
                 <input type="email" name="email" id="email" required placeholder="Ex: usuario@email.com">
                 <label for="senha"><strong>Senha:</strong></label>
