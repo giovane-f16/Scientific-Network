@@ -38,8 +38,9 @@
                 <button type="submit" id="botaoLogin">Log In</button>
                 <a href="#">Esqueceu a sua senha?</a>
             </fieldset>
-            <div>
+            <div class="fazerCadastro">
                 <h3>Ainda não possui Login? Faça o seu cadastro!</h3>
+                <img src="/wordpress/wp-content/themes/scientific/ciencia.png" alt="Logo ciência" id="logo_ciencia">
                 <button type="submit" id="botaoCadastrar">Cadastrar</button>
             </div>
         </form>

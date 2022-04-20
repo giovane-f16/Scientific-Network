@@ -102,6 +102,11 @@ body {
 .meio form #botaoCadastrar:hover{
     background-color: rgb(110, 110, 248);
 }
+#logo_ciencia{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
 .meio form fieldset a{
     text-decoration: none;
     color: black;
@@ -109,6 +114,11 @@ body {
 }
 .meio form fieldset a:hover{
     color: rgb(0, 0, 182);
+}
+.fazerCadastro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .botoes{
     display: flex;
