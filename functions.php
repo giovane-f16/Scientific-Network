@@ -70,6 +70,7 @@ function dadosSelect(){
     }
     return $valor;
 }
+
 function excluir(){
     echo 'teste';
 }
