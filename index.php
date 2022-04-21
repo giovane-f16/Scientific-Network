@@ -48,12 +48,12 @@
     <div class="cadastro">
         <form method="post">
             <fieldset>
-                <legend>Informações</legend>
-                <label for="nome">Nome Completo: </label>
+                <legend><b>Informações</b></legend><br>
+                <label for="nome"><b>Nome Completo:</b> </label>
                 <input type="text" name="nome" id="nome">
-                <label for="emailCadastro">E-mail: </label>
+                <label for="emailCadastro"><b>E-mail: </b></label>
                 <input type="email" name="emailCadastro" id="emailCadastro">
-                <label for="senhaCadastro">Cadastre uma senha: </label>
+                <label for="senhaCadastro"><b>Cadastre uma senha: </b></label>
                 <input type="password" name="senhaCadastro" id="senhaCadastro">
                 <input type="submit" value="Enviar" name="botaoDadosCadastrados" id="botaoDadosCadastrados">
             </fieldset>
