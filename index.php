@@ -56,9 +56,10 @@
                 <label for="senhaCadastro"><b>Cadastre uma senha: </b></label>
                 <input type="password" name="senhaCadastro" id="senhaCadastro">
                 <input type="submit" value="Enviar" name="botaoDadosCadastrados" id="botaoDadosCadastrados">
+                <!--img src="/wordpress/wp-content/themes/scientific/ciencia.png" alt="Logo ciência" id="logo_ciencia_cadastro"-->
             </fieldset>
         </form>
-        <?php dadosSelect() ?>
+        <?php //dadosSelect() ?>
     </div>
     <div class="inferior">
         <section id="projeto"><h2>Projeto Integrador</h2>

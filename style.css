@@ -128,8 +128,8 @@ body {
 .cadastro{
     display: none;
     background-color: rgba(106, 201, 205, 0.3);
+    position: relative;
 }
-
 .cadastro form fieldset input{
     display: flex;
     flex-direction: row;
