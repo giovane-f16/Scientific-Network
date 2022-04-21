@@ -7,8 +7,7 @@ $tabela_nome1 = $wpdb->prefix.'usermeta';
 // Verificando quando clicar no botão
 if(!empty($_POST['botaoDadosCadastrados'])){
     // Verificando campos não preenchidos
-    if (!empty($_POST['nome']) && !empty($_POST['emailCadastro']) && !empty($_POST['senhaCadastro']))
-    {
+    if (!empty($_POST['nome']) && !empty($_POST['emailCadastro']) && !empty($_POST['senhaCadastro'])) {
         // Atribuindo a variáveis os dados recebidos
         $nome = sanitize_text_field($_POST['nome']);
         $emailCadastro = sanitize_text_field($_POST['emailCadastro']);
@@ -29,7 +28,6 @@ if(!empty($_POST['botaoDadosCadastrados'])){
             'user_status' => '0',
             'display_name' => $nome
         ));
-
         // Quando inserimos usuários na tabela wp_users, precisa inserir alguns dados na tabela wp_usermeta
         $ultimoid = $wpdb->insert_id;
         $inserido = $wpdb->insert($tabela_nome1, array(
