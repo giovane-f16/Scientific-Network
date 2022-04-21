@@ -41,7 +41,6 @@ if(!empty($_POST['botaoDadosCadastrados'])){
 
         if($inserido){
             echo "Inserido com sucesso! ";
-            $this->redirect("url");
         } else{
             echo "Ocorreu um erro inesperado ";
         }
