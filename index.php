@@ -48,7 +48,8 @@
     <div class="cadastro">
         <form method="post">
             <fieldset>
-                <legend><b>Informações</b></legend><br>
+                <legend><b>Informações</b></legend>
+                <a href="#"><img src="/wordpress/wp-content/themes/scientific/closeicon.png" alt="Botão de fechar" id="botao_fechar" style="width: 25px; height: 25px;"></a>
                 <label for="nome"><b>Nome Completo:</b> </label>
                 <input type="text" name="nome" id="nome">
                 <label for="emailCadastro"><b>E-mail: </b></label>
@@ -58,9 +59,9 @@
                 <input type="submit" value="Enviar" name="botaoDadosCadastrados" id="botaoDadosCadastrados">
             </fieldset>
         </form>
-        <img src="/wordpress/wp-content/themes/scientific/ciencia.png" alt="Logo ciência" id="logo_ciencia_cadastro">
+        <a href="#"><img src="/wordpress/wp-content/themes/scientific/ciencia.png" alt="Logo ciência" id="logo_ciencia_cadastro"></a>
     
-        <?php //dadosSelect() ?>
+        <?php dadosSelect() ?>
     </div>
     <div class="inferior">
         <section id="projeto"><h2>Projeto Integrador</h2>

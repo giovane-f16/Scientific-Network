@@ -47,7 +47,6 @@ if(!empty($_POST['botaoDadosCadastrados'])){
         echo "Todos os campos devem ser preenchidos";
     }
 }
-// Função de select
 function dadosSelect(){
     echo "<pre>";
     global $wpdb;  // variável global as conexões do DB, os dados e as classes

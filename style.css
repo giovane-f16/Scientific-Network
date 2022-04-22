@@ -157,6 +157,10 @@ body {
 #logo_ciencia_cadastro{
     object-fit: contain;
 }
+.cadastro form fieldset a{
+    display: flex;
+    justify-content: end;
+}
 .inferior {
     margin: 10px;
 }
