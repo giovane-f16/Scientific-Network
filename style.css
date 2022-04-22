@@ -127,6 +127,7 @@ body {
 }
 .cadastro{
     display: none;
+    justify-content: space-around;
     background-color: rgba(106, 201, 205, 0.3);
     position: relative;
 }
@@ -152,6 +153,9 @@ body {
 }
 .cadastro form fieldset #botaoDadosCadastrados:hover{
     background-color: rgb(110, 110, 248);
+}
+#logo_ciencia_cadastro{
+    object-fit: contain;
 }
 .inferior {
     margin: 10px;
