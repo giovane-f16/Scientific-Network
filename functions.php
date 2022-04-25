@@ -52,7 +52,6 @@ function dadosSelect(){
     global $wpdb;  // variável global as conexões do DB, os dados e as classes
     $tabela_nome = $wpdb->prefix.'users';
     $resultado = $wpdb->get_results("SELECT * FROM $tabela_nome ORDER BY ID ASC");
-
     // loop para pegar cada valor inserido na tabela
     foreach($resultado as $valor){
             echo $valor->ID; // variável $valor recebendo valor da coluna
@@ -65,10 +64,6 @@ function dadosSelect(){
             echo "<br><br>";
     }
     return $valor;
-}
-
-function excluir(){
-    echo 'teste';
 }
 
 ?>

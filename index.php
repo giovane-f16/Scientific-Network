@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/wordpress/wp-content/themes/scientific/style.css">
     <link rel="shortcut icon" type="imagem.png" href="/wordpress/wp-content/themes/scientific/ciencia.png">
-    <meta http-equiv="cache-control" content="max-age=0">
     <meta http-equiv="cache-control" content="no-cache">
     <meta http-equiv="expires" content="0">
     
@@ -61,19 +60,19 @@
         </form>
         <a href="#"><img src="/wordpress/wp-content/themes/scientific/ciencia.png" alt="Logo ciência" id="logo_ciencia_cadastro"></a>
     
-        <?php dadosSelect() ?>
+        <?php //dadosSelect() ?>
     </div>
     <div class="inferior">
         <section id="projeto"><h2>Projeto Integrador</h2>
-            <p>Este projeto tem como objetivo primário a criação de uma plataforma rede social na qual cientistas 
+            Este projeto tem como objetivo primário a criação de uma plataforma rede social na qual cientistas 
             de todo o mundo sejam capazes de compartilhar informações uns com os outros, dessa forma aumentando a taxa de
-            desenvolvimento científico de todo o planeta</p>
+            desenvolvimento científico de todo o planeta
         </section>
 
         <section id="missao"><h3>Missão</h3>
-            <p>Por meio de um trabalho desenvolvido com ética, comprometimento e eficiência, temos a missão de 
+            Por meio de um trabalho desenvolvido com ética, comprometimento e eficiência, temos a missão de 
             transformar a realidade de empresas, negócios e pessoas, aumentando os seus resultados no universo web e mobile de 
-            maneira contínua.</p>
+            maneira contínua.
         </section>
 
         <section id="visao"><h3>Visão</h3>
