@@ -66,7 +66,6 @@ body {
     border: 1px solid rgb(0, 0, 0);
     background-color: rgb(160, 182, 224);
 }
-
 .meio form fieldset #senha{
     padding: 15px 75px 15px 75px;
     margin: 5px 5px 15px;
@@ -76,7 +75,6 @@ body {
     border: 1px solid rgb(0, 0, 0);
     background-color: rgb(160, 182, 224);
 }
-
 .meio form fieldset #botaoLogin{
     text-decoration: none;
     margin: 5px;
@@ -85,6 +83,7 @@ body {
     font-size: 18px;
     padding: 10px 4px;
     background-color: rgb(160, 182, 224);
+    cursor: pointer;
 }
 .meio form fieldset #botaoLogin:hover{
     background-color: rgb(110, 110, 248);
@@ -98,6 +97,7 @@ body {
     font-size: 24px;
     padding: 10px;
     width: 100%;
+    cursor: pointer;
 }
 .meio form #botaoCadastrar:hover{
     background-color: rgb(110, 110, 248);
@@ -150,6 +150,7 @@ body {
 .cadastro form fieldset #botaoDadosCadastrados{
     background-color: rgb(160, 182, 224);
     border-radius: 10px;
+    cursor: pointer;
 }
 .cadastro form fieldset #botaoDadosCadastrados:hover{
     background-color: rgb(110, 110, 248);
